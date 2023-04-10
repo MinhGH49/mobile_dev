@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:id="@+id/main">
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:gravity="center"
+        android:text="Hello world!">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp">
+
+        <Button
+            android:id="@+id/b_red"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="200px"
+            android:backgroundTint="@color/red"
+            android:text="red" />
+
+        <Button
+            android:id="@+id/b_gre"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="200px"
+            android:backgroundTint="@color/green"
+            android:text="green" />
+
+        <Button
+            android:id="@+id/b_blu"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="200px"
+            android:backgroundTint="@color/blue"
+            android:text="blue" />
+
+        <Button
+            android:id="@+id/b_gra"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="200px"
+            android:backgroundTint="@color/gray"
+            android:text="gray" />
+    </LinearLayout>
+
+</LinearLayout>
