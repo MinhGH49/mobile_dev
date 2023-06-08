@@ -53,5 +53,5 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="Camera.app.main" />
+  <component name="TestModuleProperties" production-module="Lab4_3.app.main" />
 </module>
